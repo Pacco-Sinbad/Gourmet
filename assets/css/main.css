@@ -1625,8 +1625,10 @@ input, select, textarea {
 		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 		.image.shrinkVert {
-			background-image: url(/images/shroomies.jpg);
-			background-size: cover;
+			background-image: url(images/tarraGillsBig.png) ;
+			background-size:  cover;
+			background-repeat: no-repeat;
+			background-position: center;
 			height: 25rem;
 			width: 100%;
 			border-radius: .25em;
@@ -2018,7 +2020,7 @@ input, select, textarea {
 		.wrapper.style1 {
 			background: #fee19d url("images/overlay.png");
 			color: #2c1903;
-			color: #2c1903);
+			color: #2c1903;
 		}
 
 			.wrapper.style1 .title {
@@ -2075,7 +2077,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("../../images/head.png") center center;
+		background: url("images/head.png") center center;
 		background-size: cover;
 		padding: 0;
 	}
