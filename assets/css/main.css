@@ -2035,6 +2035,9 @@ input, select, textarea {
 		.wrapper.style2 {
 			background: #c2d8d4;
 		}
+		.wrapper.style2.style10{
+			background: #fff;
+		}
 
 			.wrapper.style2 .title {
 				background: #c2d8d4;
@@ -2401,7 +2404,7 @@ input, select, textarea {
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.05);
 			color: #aaa;
-			color: rgba(255, 255, 255, 0.25);
+			color: rgba(0, 0, 0, 0.589);
 			padding: 0.75em 2em;
 			font-size: 0.9em;
 		}
