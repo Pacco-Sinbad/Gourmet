@@ -1628,14 +1628,14 @@ input, select, textarea {
 		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 		.image.shrinkVert {
-			background-image: url(images/tarraGillsBig.png) ;
+			background-image: url(images/oysterNoBG.png) ;
 			background-size:  cover;
 			background-repeat: no-repeat;
 			background-position: center;
 			height: 25rem;
 			width: 100%;
 			border-radius: .25em;
-			box-shadow: 0px 0px 9px 4px;
+			/* box-shadow: 0px 0px 9px 4px; */
 		}
 
 
@@ -2083,7 +2083,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("images/head.png") center center;
+		background: url("images/tarraGillsBig.png") center center;
 		background-size: cover;
 		padding: 0;
 	}
@@ -2102,13 +2102,16 @@ input, select, textarea {
 			height: 35em;
 		}
 
+
 /* Logo */
 
 	#logo {
-		width: 100%;
+		width: 70%;
 		text-align: center;
 		position: relative;
 		top: 1.5em;
+		background-color: #838383a1;
+		padding: 1em 0;
 	}
 
 		#logo h1 {
@@ -2120,14 +2123,48 @@ input, select, textarea {
 		}
 
 		#logo p {
-			color: #eee;
+			color: #9e2e2e;
 			color: #2c1903;
 			text-transform: uppercase;
 			margin: 1.25em 0 0 0;
 			display: block;
 			letter-spacing: 0.2em;
-			font-size: 0.9em;
+			font-size: 1.2em;
+			font-weight: bold;
 		}
+
+		#logo a{
+			color: #1e0031;
+		}
+		
+	#topImage{
+		width: 40%;
+		position: absolute;
+		top: 12%;
+		left: 1%;
+	}
+	
+	@media screen and (max-width: 398px) {
+		#logo{
+			padding: .3em 0;
+		}
+	}
+	@media screen and (max-width: 398px) {
+		#logo{
+			width: 90%;
+		}
+	}
+	@media screen and (max-width: 1618px) {
+		#topImage{
+			top: 8%;
+			left: 60%;
+		}
+	} 
+	@media screen and (max-width: 980px) {
+		#topImage{
+			display: none;
+		}
+	}
 
 /* Nav */
 
@@ -2138,13 +2175,15 @@ input, select, textarea {
 		left: 0;
 		width: 100%;
 		text-align: center;
+		
 	}
 
 		#nav > ul {
 			display: inline-block;
 			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px rgba(38, 61, 67, 0.797);
+			box-shadow: inset 0px 0px 1px 1px rgb(0, 0, 0);
 			padding: 0 1.5em 0 1.5em;
+			background-color: #838383a1;
 		}
 
 			#nav > ul > li {
@@ -2160,10 +2199,11 @@ input, select, textarea {
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
 					color: #eee;
-					color: rgba(38, 61, 67, 0.797);
+					color: rgb(0, 0, 0);
 					text-transform: uppercase;
 					text-decoration: none;
-					font-size: 0.7em;
+					font-size: .8em;
+					font-weight: 900;
 					letter-spacing: 0.25em;
 					height: 5em;
 					line-height: 5em;
