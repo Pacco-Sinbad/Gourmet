@@ -181,6 +181,9 @@ input, select, textarea {
 		max-width: 100%;
 		width: 68em;
 	}
+	#extraSpace{
+		margin-top: 2.5rem;
+	}
 
 		@media screen and (max-width: 1680px) {
 
