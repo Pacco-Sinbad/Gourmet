@@ -1449,6 +1449,28 @@ input, select, textarea {
 
 		}
 
+
+/* Mosaic Lists */
+.mosaicContainer{
+	display: flex;
+	flex-direction: row;
+}
+.mosaic{
+	width: 33%;
+	padding: .1em 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: baseline;
+	flex-wrap: wrap;
+}
+ul .mosaicItem{
+	list-style-type: none;
+	
+}
+.mosaicItem img{
+	width: 100%;
+}
 /* Section/Article */
 
 	section,
