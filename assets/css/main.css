@@ -2087,6 +2087,13 @@ input, select, textarea {
 		background-size: cover;
 		padding: 0;
 	}
+	@media  screen and (max-width: 1000px) {
+		#header{
+			background: url(images/tarraGills.png) center center;
+			background-size: cover;
+		}
+		
+	}
 
 		#header:before {
 			content: '';
