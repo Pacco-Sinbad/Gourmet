@@ -1456,6 +1456,11 @@ input, select, textarea {
 	font-weight: 900;
 	font-variant: small-caps;
 }
+header.style1 .smallText{
+	font-size: .9rem;
+	font-variant: small-caps;
+	line-height: 1em;
+}
 /* Mosaic Lists */
 .mosaicContainer{
 	display: flex;
