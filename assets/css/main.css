@@ -1470,7 +1470,7 @@ header.style1 .smallText{
 }
 #footer section.feature-list.feature-list2 {
 	
-    padding-top: 3em;
+    padding-top: 0;
     padding-left: 0;
     position: relative;
 }
@@ -1495,6 +1495,13 @@ header.style1 .smallText{
 }
 #footer.row2 section{
 	padding-left: 0;
+}
+div.row.row2{
+	width: 100%;
+	margin: 0;
+}
+section.contactIntoText p{
+	word-wrap: break-word;
 }
 /* Mosaic Lists */
 .mosaicContainer{
