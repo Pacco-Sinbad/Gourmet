@@ -1468,14 +1468,14 @@ header.style1 .smallText{
 #footer div{
 	padding: 0 1em;
 }
-#footer.feature-list2 .contactInfoText{
-	border-top: solid 1px #eee;
+#footer section.feature-list.feature-list2 {
+	
     padding-top: 3em;
     padding-left: 0;
     position: relative;
 }
 #footer header.style1.style1Alt{
-	margin-bottom: 0;
+	margin-bottom: 2em;
 	padding-bottom: 0;
 }
 #footer div.socialFlex{
@@ -1483,7 +1483,18 @@ header.style1 .smallText{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: center;
+}
+#footer div.socialFlex section.contactInfoText{
+	text-align: center;
+	vertical-align: center;
+	padding: 1em;
+}
+#footer div.col-6.col-12-small{
+	min-width: 50%;
+}
+#footer.row2 section{
+	padding-left: 0;
 }
 /* Mosaic Lists */
 .mosaicContainer{
