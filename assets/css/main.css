@@ -1461,6 +1461,30 @@ header.style1 .smallText{
 	font-variant: small-caps;
 	line-height: 1em;
 }
+
+#footer h4, #footer p{
+	text-align: center;
+}
+#footer div{
+	padding: 0 1em;
+}
+#footer.feature-list2 .contactInfoText{
+	border-top: solid 1px #eee;
+    padding-top: 3em;
+    padding-left: 0;
+    position: relative;
+}
+#footer header.style1.style1Alt{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+#footer div.socialFlex{
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
 /* Mosaic Lists */
 .mosaicContainer{
 	display: flex;
