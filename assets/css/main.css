@@ -2456,6 +2456,12 @@ ul .mosaicItem{
 			letter-spacing: 0.05em;
 		}
 
+#highlights .markets{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}		
+
 /* Main */
 
 /* Footer */
