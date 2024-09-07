@@ -1461,6 +1461,11 @@ header.style1 .smallText{
 	font-variant: small-caps;
 	line-height: 1em;
 }
+header p.smallText{
+	font-size: .9rem;
+	font-variant: small-caps;
+	line-height: 1em;
+}
 
 #footer h4, #footer p{
 	text-align: center;
@@ -1742,6 +1747,12 @@ ul .mosaicItem{
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
+		}
+
+		.image.secondFeature{
+			display: block;
+			margin: 0 auto 2em auto;
+			width: 70%;
 		}
 		/* adding in extra lines here to fix an image !!!!!!!!!!!!!!!!!!!!!!!!!!!
 		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
