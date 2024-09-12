@@ -8,14 +8,15 @@ const e = require('express');
 app.use (cors())
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
+app.use(express.static('public'))
 
 const dotenv = require('dotenv').config()
 const uri = process.env.MONGOLAB_URI
 
-MongoClient.connect(uri)
-    .then(client => {
-        console.log('connected')
-        const userListDB = client.db('UserList')
+// MongoClient.connect(uri)
+//     .then(client => {
+//         console.log('connected')
+//         const ########## = client.db('UserList')
 
         app.get('/', (req,res)=> {
             res.sendFile(__dirname + '/index.html')
@@ -27,5 +28,5 @@ MongoClient.connect(uri)
 
 
 
-    })
-    .catch(error => console.error(error))
+    // })
+    // .catch(error => console.error(error))

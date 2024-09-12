@@ -19,8 +19,12 @@
   },
   "homepage": "https://github.com/Pacco-Sinbad/Gourmet#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.20.0",
-    "mongodb": "^6.8.1",
+    "mongodb": "^6.8.1"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.4"
   }
 }
