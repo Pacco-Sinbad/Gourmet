@@ -9,7 +9,7 @@
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
+pre, a, button, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
@@ -116,7 +116,7 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
-	a {
+	a, button {
 		-moz-transition: color .25s ease-in-out;
 		-webkit-transition: color .25s ease-in-out;
 		-ms-transition: color .25s ease-in-out;
@@ -170,7 +170,7 @@ input, select, textarea {
 		clear: both;
 	}
 
-	p, ul, ol, dl, table, blockquote, form {
+	p, ul, ol, dl, table, blockquote /*form*/ {
 		margin-bottom: 2em;
 	}
 
@@ -1462,6 +1462,8 @@ header.style1 .smallText{
 	line-height: 1em;
 }
 header p.smallText{
+	margin-top: -2.5em;
+	padding: 0;
 	font-size: .9rem;
 	font-variant: small-caps;
 	line-height: 1em;
@@ -1771,7 +1773,7 @@ ul .mosaicItem{
 
 
 /* Button */
-
+/* 
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
@@ -1891,7 +1893,7 @@ ul .mosaicItem{
 			button.style3:active,
 			.button.style3:active {
 				background-color: #1f232b;
-			}
+			} */
 
 /* List */
 
@@ -2271,7 +2273,7 @@ ul .mosaicItem{
 			font-weight: bold;
 		}
 
-		#logo a{
+		#logo a, #logo button{
 			color: #1e0031;
 		}
 		
@@ -2306,6 +2308,12 @@ ul .mosaicItem{
 
 /* Nav */
 
+	button{
+		background: none;
+		border: none;
+		font-size: inherit;
+	}
+
 	#nav {
 		position: absolute;
 		display: block;
@@ -2334,7 +2342,7 @@ ul .mosaicItem{
 					display: none;
 				}
 
-				#nav > ul > li > a, #nav > ul > li > span {
+				#nav > ul > li > a, #nav > ul > li > span,  #nav > ul > li > form > button{
 					display: block;
 					color: #eee;
 					color: rgb(0, 0, 0);
@@ -2352,14 +2360,17 @@ ul .mosaicItem{
 					transition: all .25s ease-in-out;
 					outline: 0;
 				}
+			
 
-				#nav > ul > li:hover > a {
+				#nav > ul > li:hover > a, #nav > ul > li:hover > form > a,  #nav > ul > li:hover > form > button {
 					color: rgba(7, 148, 183, 0.797);
 				}
 
-				#nav > ul > li.active > a, #nav > ul > li.active > span {
+				#nav > ul > li.active > a, #nav > ul > li.active > span, #nav > ul > li:active > form > a,  #nav > ul > li:active > form > button {
 					color: rgba(7, 148, 183, 0.797);
 				}
+
+			
 
 	.dropotron {
 		background: #222835 url("images/overlay.png");
@@ -2381,7 +2392,7 @@ ul .mosaicItem{
 			border-top-right-radius: 0;
 		}
 
-		.dropotron a, .dropotron span {
+		.dropotron a, .dropotron span, .dropotron button {
 			-moz-transition: all .25s ease-in-out;
 			-webkit-transition: all .25s ease-in-out;
 			-ms-transition: all .25s ease-in-out;
@@ -3004,7 +3015,7 @@ ul .mosaicItem{
 
 		/* Button */
 
-			input[type="button"],
+			/* input[type="button"],
 			input[type="submit"],
 			input[type="reset"],
 			button,
@@ -3014,7 +3025,7 @@ ul .mosaicItem{
 				font-size: 1em;
 				max-width: 30em;
 				margin: 0 auto;
-			}
+			} */
 
 		/* Actions */
 
