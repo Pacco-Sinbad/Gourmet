@@ -4,6 +4,25 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+const divs = document.querySelectorAll('.scrollDiv');
+let currentDiv = 0;
+
+function showNextDiv() {
+    divs.forEach((div, index) => {
+        div.classList.remove('active');
+        if (index === currentDiv) {
+            div.classList.add('active');
+        }
+    });
+
+    currentDiv = (currentDiv + 1) % divs.length; // Loop back to the first div
+}
+
+setTimeout(showNextDiv, 100);
+
+setInterval(showNextDiv, 7000); // Change every 2 seconds
+
+
 (function($) {
 
 	var	$window = $(window),

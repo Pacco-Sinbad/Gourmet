@@ -2305,6 +2305,77 @@ ul .mosaicItem{
 			display: none;
 		}
 	}
+  
+/* Customer Testimonial Side Scroller */
+
+article.testimonials{
+	
+	width: 100%;
+	margin-bottom: 1em;
+}
+section.sideScroller{
+	margin: -1em auto 0 auto;
+	overflow: hidden;
+	height: 300px;
+	position: relative;
+	border: white solid 1.5px;
+	border-radius: 3px;
+}
+
+div.scrollDiv{
+	height: 100%;
+	width: 100%;
+	padding: .5em;
+	opacity: 0;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	transition: opacity 1.5s ease;
+	
+}
+
+div.testimonialPhoto{
+	width: 50%;
+	height: 95%;
+	margin-right: 1em;
+	box-shadow: 0px 0px 10px 3px rgba(56, 37, 23, 0.521);
+	border-radius: 3px;
+	
+}
+div.scrollDiv p{
+	width: 40%;
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+
+
+.scrollDiv.active{
+	opacity: 1;
+}
+
+#Ryan,#Susan,#Robert{
+	background-image: url(images/9-20-24-4.png);
+	background-size: cover;
+	background-position: center;
+}
+#Susan{
+	background-image: url(images/9-20-24-5.png);
+}
+#Robert{
+	background-image: url(images/9-20-24-6.png);
+}
+
+@media  screen and (max-width: 600px){
+
+	
+}
+@media  screen and (max-width: 400px){
+
+	
+}
 
 /* Nav */
 
