@@ -2376,7 +2376,24 @@ div.scrollDiv p{
 
 	
 }
-
+/* FAQ */
+.figures{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.figures figure{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+.figures img{
+	width: 55%;
+}
 /* Nav */
 
 	#nav {
