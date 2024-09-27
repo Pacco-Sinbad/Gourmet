@@ -2394,6 +2394,19 @@ div.scrollDiv p{
 .figures img{
 	width: 55%;
 }
+.fig2{
+	margin-top: 2em;
+}
+
+@media screen and (max-width: 736px) {
+	.hideMobile{
+		display: none;
+	}
+	.image.featured.hideMobile{
+		display: none;
+	}
+}
+
 /* Nav */
 
 	#nav {
