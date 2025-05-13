@@ -2411,24 +2411,27 @@ div.scrollDiv p{
 		display: none;
 	}
 
+}
+
 /**************************************************************/
+
 #frameo{
-	display: block;
+	display: block; 
 	box-sizing: border-box;
 	position: relative;
 	width: 100%;
 	padding-top: 56.25%;
+	overflow: hidden;
+	margin-bottom: 3em;
 }
 #frameo iframe{
-	display: block;
+	display: bloct;
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	border: none;
-}
-
+	border: 0;
 }
 .weirdlink{
 	text-decoration: underline;
