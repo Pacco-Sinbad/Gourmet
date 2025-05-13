@@ -2410,6 +2410,31 @@ div.scrollDiv p{
 	.image.featured.hideMobile{
 		display: none;
 	}
+
+/**************************************************************/
+#frameo{
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+	padding-top: 56.25%;
+}
+#frameo iframe{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+}
+.weirdlink{
+	text-decoration: underline;
+}
+.weirdlink:hover{
+	color: rgba(7, 148, 183, 0.797);
 }
 
 /* Nav */
