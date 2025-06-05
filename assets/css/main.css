@@ -2255,7 +2255,8 @@ ul .mosaicItem{
 		text-align: center;
 		position: relative;
 		top: 1.5em;
-		background-color: #838383a1;
+		/* background-color: #838383a1; */
+		background-image: linear-gradient(to right, rgba(187, 42, 42, 0), #838383a1, rgba(255, 0, 0, 0));
 		padding: 1em 0;
 	}
 
