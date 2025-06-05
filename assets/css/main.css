@@ -2289,6 +2289,13 @@ ul .mosaicItem{
 		top: 12%;
 		left: 1%;
 	}
+
+	.productsAvailable span{
+				display: block;
+			} 
+	section .extraToSay{
+		margin-top: 1em;
+	}
 	
 	@media screen and (max-width: 398px) {
 		#logo{
@@ -2843,6 +2850,7 @@ div.scrollDiv p{
 			header br {
 				display: none;
 			}
+			
 
 		/* Form */
 
