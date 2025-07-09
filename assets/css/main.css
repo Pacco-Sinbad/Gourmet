@@ -1456,7 +1456,7 @@ input, select, textarea {
 	font-weight: 900;
 	font-variant: small-caps;
 }
-header.style1 .smallText{
+header.style1 .smallText, section#features div.row span.smallText{
 	font-size: .9rem;
 	font-variant: small-caps;
 	line-height: 1em;
